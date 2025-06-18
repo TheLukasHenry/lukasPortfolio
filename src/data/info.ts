@@ -92,7 +92,8 @@ export const info = {
 
   contact: {
     email: 'lukasherajt@gmail.com',
-    linkedin: 'https://www.linkedin.com/in/TheLukasHenry/',
+    phone: '+1 (201) 640-7892', // Update this with your actual phone number
+    linkedin: 'https://www.linkedin.com/in/lukasherajt/',
     github: 'https://www.github.com/TheLukasHenry',
     twitter: 'https://luckyportofolio.net',
   },

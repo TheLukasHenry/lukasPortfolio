@@ -1,21 +1,22 @@
-import { info } from "../../data/info";
-import { LazyLoadImage } from "react-lazy-load-image-component";
-import "react-lazy-load-image-component/src/effects/blur.css";
+import { info } from '../../data/info'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
+import 'react-lazy-load-image-component/src/effects/blur.css'
 
 interface ProjectCardProps {
-  project: (typeof info)["projects"][number];
+  project: (typeof info)['projects'][number]
 }
 
 export default function ProjectCard(props: ProjectCardProps) {
-  const { project } = props;
+  const { project } = props
 
   return (
     <div className="flex flex-col bg-primary dark:bg-dk-primary rounded-lg">
       <div className="flex-shrink-0">
         <a
           href={project.link}
+          target="_blank"
           rel="noreferrer"
-          aria-label={project.img_alt + ", click to open the project page"}
+          aria-label={project.img_alt + ', click to open the project page'}
         >
           <LazyLoadImage
             className="h-52 w-full object-cover"
@@ -31,6 +32,7 @@ export default function ProjectCard(props: ProjectCardProps) {
           <p className="text-sm font-medium text-text dark:text-dk-text">
             <a
               href={project.link}
+              target="_blank"
               rel="noreferrer"
               className="hover:underline"
               aria-label="Title of the project, click to open the project page"
@@ -40,6 +42,7 @@ export default function ProjectCard(props: ProjectCardProps) {
           </p>
           <a
             href={project.link}
+            target="_blank"
             rel="noreferrer"
             className="block mt-2"
             aria-label="Description of the project, click to open the project page"
@@ -67,5 +70,5 @@ export default function ProjectCard(props: ProjectCardProps) {
         </div>
       </div>
     </div>
-  );
+  )
 }
