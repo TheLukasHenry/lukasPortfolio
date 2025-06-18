@@ -1,92 +1,99 @@
 export const info = {
-  name: "Bart Simpson",
+  name: 'Lukas Herajt',
   brief_description:
-    "I'm a mischievous full stack developer with a knack for troublemaking.",
-  role: "Full Stack Developer",
-  picture: "/pic.png",
-  picture_alt: "Bart Simpson",
-  location: "Springfield, USA",
-  cv: "/resume.pdf",
+    "I'm an accomplished software engineer and web developer with a robust foundation in computer science.",
+  role: 'Software Engineer',
+  picture: '/profilePic.png',
+  picture_alt: 'Lukas Herajt',
+  location: 'Cameron, NC',
+  cv: '/LukasHerajtResume.pdf',
 
   about: {
-    description: `I'm a full stack developer with a passion for causing a little chaos in web development.
-    I have a solid foundation in computer science, although I prefer skateboarding over studying.
-    I excel in building web applications using React, Node.js, and MongoDB.
-    I'm known for my sharp wit and quick thinking, traits that serve me well in coding and pranks alike.
-    Looking for a challenge? Let's create something memorable together.`,
+    description: `I'm an accomplished software engineer and web developer with a robust foundation in computer science and extensive expertise in developing scalable web applications and e-commerce solutions. Skilled in leveraging modern technologies such as Next.js, .NET Core, MS SQL Server, and GraphQL to deliver enhanced user experiences and operational efficiencies. I demonstrate a strong aptitude for AI integration and quality assurance, ensuring applications not only meet but exceed performance expectations.`,
     education: [
       {
-        title: "Self-Taught Developer Extraordinaire",
-        date: "2000 - Present",
-        location: "Springfield Elementary School of Hard Knocks",
-        gpa: "4.0 (A+ in Pranks)",
-        thesis: "The Art of Subverting Expectations: A Practical Guide",
+        title: 'Associate of Science in Computer Science',
+        date: 'Graduated: 2021',
+        location: 'Hudson County Community College, Jersey City, NJ',
+        gpa: '',
+        thesis: '',
       },
     ],
     experience: [
       {
-        title: "Frontend Developer",
-        date: "2015 - Present",
-        location: "Krusty Burger Web Dev",
+        title: 'Software Engineer',
+        date: 'September 2022 - Present',
+        location: 'American Board of Anesthesiology',
         description:
-          "Crafted interactive web experiences using React and Redux. Often multitasked between coding and avoiding Principal Skinner.",
+          'Lead the development of scalable software solutions using MS SQL, C#, Next.js, and React Native, resulting in a 35% improvement in system performance and a 25% increase in user engagement. Design and implement efficient code architectures that streamline operations and reduce processing times by 30%, significantly enhancing system reliability and performance.',
       },
       {
-        title: "Backend Bandit",
-        date: "2013 - 2015",
-        location: "Comic Book Guy's Software Emporium",
+        title: 'Software Engineer',
+        date: 'December 2021 - September 2022',
+        location: 'Mid Atlantic Distribution',
         description:
-          "Masterminded backend solutions using Node.js and MongoDB. Surprisingly good at debugging, considering my history of causing bugs.",
+          "Developed a headless e-commerce storefront using GraphQL and REST APIs, contributing to a 28% increase in revenue. Revitalized the front-end of the company's online store, improving usability and SEO, resulting in a 20% uplift in organic search traffic. Crafted reusable components and hooks with TypeScript and React, expanding market presence by 15% through enhanced software modularity and maintainability.",
       },
       {
-        title: "Junior Hacker",
-        date: "2010 - 2013",
-        location: "Springfield Elementary Cyber Club",
+        title: 'Web Developer',
+        date: 'November 2020 - December 2021',
+        location: 'Hiretalk',
         description:
-          "Pioneered early web exploits, leading the club in daring coding escapades. Was disciplined for hacking the school's grading system.",
+          'Engineered client-side functionalities, notably through custom hooks, to optimize application structure, reducing errors by 40% and enhancing code maintainability. Innovated a feature allowing users to save favorite ordered items, boosting customer satisfaction and retention rates by 30%. Collaborated with cross-functional teams to translate requirements into scalable web application features, leading to a 50% improvement in development efficiency and seamless integration.',
       },
     ],
 
-    skills: ["JavaScript", "React", "Node.js", "MongoDB", "Prank Mastery"], // not used yet
+    skills: [
+      'JavaScript',
+      'React',
+      'Node.js',
+      'TypeScript',
+      'Next.js',
+      'GraphQL',
+      'C#',
+      '.NET Core',
+      'MS SQL Server',
+      'Python',
+    ], // not used yet
   },
 
   projects: [
     {
-      title: "Bart's Prank Portfolio",
-      date: "2024",
+      title: 'E-commerce Platform',
+      date: '2022',
       description:
-        "An interactive portfolio website showcasing my mischievous coding projects.",
-      link: "https://github.com/bartsimpsonfake/prank-portfolio",
-      tech: ["React", "Node.js", "MongoDB", "Sarcasm.js"],
-      img_alt: "Bart's Portfolio",
-      img_path: "/simpsons.png",
+        'A scalable headless e-commerce solution built with Next.js and GraphQL, featuring advanced product management and user authentication.',
+      link: 'https://github.com/TheLukasHenry',
+      tech: ['Next.js', 'GraphQL', 'TypeScript', 'React'],
+      img_alt: 'E-commerce Platform',
+      img_path: '/simpsons.png',
     },
     {
-      title: "Skateboard Shop",
-      date: "2023",
+      title: 'Software Management System',
+      date: '2023',
       description:
-        "An e-commerce site selling skateboards and prank supplies. No bullies allowed!",
-      link: "https://github.com/bartsimpsonfake/skate-shop",
-      tech: ["React", "Node.js", "MongoDB", "Skateboard.js"],
-      img_alt: "Skateboard Shop",
-      img_path: "skateboard.png",
+        'Enterprise software solution for the American Board of Anesthesiology with improved performance and user engagement metrics.',
+      link: 'https://github.com/TheLukasHenry',
+      tech: ['C#', '.NET Core', 'MS SQL Server', 'React Native'],
+      img_alt: 'Management System',
+      img_path: '/skateboard.png',
     },
     {
-      title: "Comic Book Club",
-      date: "2022",
+      title: 'Web Application Portfolio',
+      date: '2024',
       description:
-        "A platform for comic book enthusiasts to discuss and share their collections.",
-      link: "https://github.com/bartsimpsonfake/comic-club",
-      tech: ["React", "Node.js", "MongoDB", "Comic.js"],
-      img_alt: "Comic Book Club",
-      img_path: "comics.png",
+        'A modern portfolio website showcasing full-stack development capabilities with responsive design and dark mode support.',
+      link: 'https://github.com/TheLukasHenry',
+      tech: ['Astro', 'React', 'TypeScript', 'Tailwind CSS'],
+      img_alt: 'Portfolio Website',
+      img_path: '/comics.png',
     },
   ],
 
   contact: {
-    email: "bart@thesimpsons.com",
-    linkedin: "https://www.linkedin.com/in/bartsimpsonfake",
-    github: "https://www.github.com/gio-del",
-    twitter: "https://www.twitter.com/bartsimpsonfake",
+    email: 'lukasherajt@gmail.com',
+    linkedin: 'https://www.linkedin.com/in/TheLukasHenry/',
+    github: 'https://www.github.com/TheLukasHenry',
+    twitter: 'https://luckyportofolio.net',
   },
-};
+}
