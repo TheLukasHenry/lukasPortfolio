@@ -59,34 +59,34 @@ export const info = {
 
   projects: [
     {
-      title: 'E-commerce Platform',
-      date: '2022',
-      description:
-        'A scalable headless e-commerce solution built with Next.js and GraphQL, featuring advanced product management and user authentication.',
-      link: 'https://github.com/TheLukasHenry',
-      tech: ['Next.js', 'GraphQL', 'TypeScript', 'React'],
-      img_alt: 'E-commerce Platform',
-      img_path: '/simpsons.png',
-    },
-    {
-      title: 'Software Management System',
-      date: '2023',
-      description:
-        'Enterprise software solution for the American Board of Anesthesiology with improved performance and user engagement metrics.',
-      link: 'https://github.com/TheLukasHenry',
-      tech: ['C#', '.NET Core', 'MS SQL Server', 'React Native'],
-      img_alt: 'Management System',
-      img_path: '/skateboard.png',
-    },
-    {
-      title: 'Web Application Portfolio',
+      title: 'ClinicQuizzer',
       date: '2024',
       description:
-        'A modern portfolio website showcasing full-stack development capabilities with responsive design and dark mode support.',
-      link: 'https://github.com/TheLukasHenry',
-      tech: ['Astro', 'React', 'TypeScript', 'Tailwind CSS'],
-      img_alt: 'Portfolio Website',
-      img_path: '/comics.png',
+        'User-friendly AI Interface application forked from Open WebUI, supporting Ollama and OpenAI API integration for enhanced medical education and quiz generation.',
+      link: 'https://github.com/TheLukasHenry/clinicquizzer',
+      tech: ['Python', 'JavaScript', 'Svelte', 'Docker', 'AI/ML'],
+      img_alt: 'ClinicQuizzer AI Interface',
+      img_path: '/clinicquizzer.png',
+    },
+    {
+      title: 'Quapp Container',
+      date: '2024',
+      description:
+        'A containerized application solution designed for efficient deployment and scalability, demonstrating modern DevOps practices and container orchestration.',
+      link: 'https://github.com/TheLukasHenry/Quapp-Container',
+      tech: ['Docker', 'Container Orchestration', 'DevOps', 'Deployment'],
+      img_alt: 'Quapp Container Application',
+      img_path: '/Quapp.png',
+    },
+    {
+      title: 'BakerTest',
+      date: '2024',
+      description:
+        'A comprehensive testing framework and application showcasing automated testing methodologies and quality assurance practices in software development.',
+      link: 'https://github.com/TheLukasHenry/bakertest',
+      tech: ['Testing Framework', 'Quality Assurance', 'Automation', 'CI/CD'],
+      img_alt: 'BakerTest Testing Framework',
+      img_path: '/BakerTest.png',
     },
   ],
 
